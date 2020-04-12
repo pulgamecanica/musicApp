@@ -1,0 +1,52 @@
+.navbar{
+    background-color: transparent;
+    padding-top: 20px;	
+}
+
+.nav-link {
+	color: white !important;
+}
+
+
+.bigcontainer {
+
+	background-color: #189CE3;
+	opacity: 0.9;
+}
+
+#carouselExampleCaptions {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+}
+
+#theSlogan {
+	padding-top: 180px;
+	margin-left: 80px;
+	background-color: transparent;
+	color: #8CFFE1;
+}
+
+#theSlogan h1{
+	padding-bottom: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+
+}
+
+#carouselExampleCaptions {
+	/*padding-left: 500px;*/
+}
+
+#navbarSupportedContent {
+	margin-left: 600px;
+	padding-right: 40px;
+}
+
+#brandTitle {
+	margin-left: 100px;
+}
+
+#listElementsNavBar li{
+	padding-left:30px;
+  	padding-right:30px;
+}

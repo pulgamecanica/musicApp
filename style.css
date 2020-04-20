@@ -1,43 +1,15 @@
-.navbar{
-    background-color: transparent;
-    padding-top: 20px;	
-}
-.nav-link {
-	color: white !important;
-}
-.container2{
 
+.card-title {
+	font-family: 'Open Sans', sans-serif;
+	color: #1C6D53;
 }
-#allContent {
-	background-color: #189CE3;
-	background-size: 100%;
-	opacity: 0.9; 
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: bottom;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+.card-text {
+	font-family: 'Open Sans', sans-serif;
+	color: #1C6D53;
 }
-
-#theSlogan {
-	background-color: transparent;
-	color: #4CFFE9; 
+.card {
+	background-color: #E1E1E1;
 }
-
-#theSlogan h1{
-	padding-top: 10%;
-	font-family: "Comic Sans MS", cursive, sans-serif; 
-
-}
-
-
-#brandTitle {
-	margin-left: 10%;
-}
-
-#listElementsNavBar li{
-	padding-left: 15%;
-  	padding-right: 10%;
+.btn1 {
+	background-color: #9C6817;
 }

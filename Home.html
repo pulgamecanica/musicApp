@@ -8,97 +8,88 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Clever Music!</title>
   </head>
   <body>
-    <div class="content" id="allContent">
-		<nav class="navbar navbar-expand-lg navbar-light">
-		  <a class="navbar-brand text-white" id="brandTitle" href="#"><img src="img/Logo2.png"> cleverMusic</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto" id="listElementsNavBar">
+  	<nav class="navbar navbar-dark bg-ligth" style="background-color: #6F6039;">
+  		<a></a>
+  		<a class="navbar-brand" href="#">
+  			<img src="img/OfficialLogo.png" width="130" height=70" class="d-inline-block align-top" alt="">
+  		</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+  			<ul class="navbar-nav">
+  				<li class="nav-item active">
+		        <a class="nav-link" href="#"><p class="text-right font-weight-light">Login </p><span class="sr-only">(current)</span></a>
+		      </li>
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="#"><p class="text-right font-weight-light">SignUp </p> <span class="sr-only">(current)</span></a>
+		      </li>
+		  </ul>
+  		</div>
+  		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">About the course</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Pricing</a>
 		      </li>
 		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          ABOUT
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Dropdown link
 		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href=about.html>METHOD</a>
-		          <a class="dropdown-item" href=about.html>CONTENT</a>
-		          <a class="dropdown-item" href=about.html>GOAL</a>
-		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="/about.html">COURSE PHILOSOPHY</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <a class="dropdown-item" href="#">Something else here</a>
 		        </div>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">COMPOSERS</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">CONTACT</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">DONATE</a>
-		      </li>
 		    </ul>
-			<ul class="nav navbar-nav navbar-right">
-			    <li class="nav-item">
-		        	<a class="nav-link" href="#">SignUp</a>
-		      	</li>
-		        <li class="nav-item">
-		       		<a class="nav-link" href="#">Login</a>
-		      	</li>
-			</ul>
-		  </div>
-		</nav>
-		<div class="jumbotron" id="theSlogan">
-			 <div class="row justify-content-center">
-				<div class="col-9">
-				 	<h1 class="slogan">MUSIC HAS NEVER BEEN EASIER!</h1>
-				 	<p class="lead">This application will help you develop a better sense of hearing that allows you to identify Music, composers, styles, you will feel comfortable and you will be able to enjoy at another level the music, such that with a lot of experience you can identify, orchestras, tonalities and you will have a better sense of what the music wants to transmit.</p>
-				 	<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-				</div>
-			</div>
 		</div>
+	</nav>
 
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-
-		<div class="container2">
-			<div class="card text-center">
-			  <div class="card-header">
-			    CleverMusic
-			  </div>
-			  <div class="card-body">
-			    <h5 class="card-title">Learn Now! It's Fun</h5>
-			    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-			    <a href="#" class="btn btn-primary">Go somewhere</a>
-			    <p class="card-text">CopyRight blablablabla.</p>
-			  </div>
-			  <div class="card-footer text-muted">
-			    n days ago
-			  </div>
+	<div class="jumbotron p-0">
+	  <!-- Card image -->
+		<div class="view overlay rounded-top">
+			<div class="text-center">
+	    		<img src="https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg" class="img-fluid" alt="Sample image">
+	    		<a href="#"><div class="mask rgba-white-slight"></div></a>
+	    	</div>
+	  	</div>
+	  	<!-- Card content -->
+	  	<div class="card-body text-center mb-3">
+	    	<h3 class="card-title h3 my-4">Welcome Neophyte</h3>
+	    	<!-- <h3 class="card-title h3 my-4">Bienvenido Neófito</h3> -->
+	    <p class="card-text py-2">We created a music list with didactic material that will allow you to know, recognize, and enjoy classical pieces and composers.</p>
+	    <!-- <p class="card-text py-2"> Creamos una lista musica con material didáctico que te permitira conocer, reconocer, disfrutar obras y compositores clásicos.</p> -->
+	    <button type="button" class="btn btn-dark btn1">Start Now</button>
+	  	</div>
+	  	<!--Footer -->
+		<div class="card text-center">
+			<div class="card-header">
+		    	<a class="navbar-brand" href="#">
+  					<img src="img/OfficialLogo.png" width="130" height=70" class="d-inline-block align-top" alt="">
+  				</a>
 			</div>
+		<div class="card-body">
+		    <h5 class="card-title" style="color: black">Clever Music</h5>
+		    <p class="card-text" style="color: black">All rigths reserved.</p>
+		    <a href="#" class="btn btn-primary">Contact</a>
+		</div>
+		<div class="card-footer text-muted">
+		    2 days ago
 		</div>
 	</div>
+</div>
 
-
-
-
-
-
-
-
-
-
+	
 
 
 
